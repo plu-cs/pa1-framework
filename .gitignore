@@ -1,0 +1,25 @@
+_build/
+gen/
+out/
+tmp/
+*~
+a.out
+*.o
+
+target/
+.DS_Store
+*.class
+
+.idea/
+*.iml
+
+### Gradle template
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Cache of project
+.gradletasknamecache
+

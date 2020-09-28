@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'rttr.main.Main'
+}
+
+dependencies {
+    implementation 'junit:junit:4.13'
+}
+
+repositories {
+    mavenCentral()
+}
+
+wrapper {
+    gradleVersion = '6.6.1'
+}
+
+compileJava {
+    options.compilerArgs << "-Xlint:unchecked"
+}
